@@ -549,8 +549,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J1"
+				(at -14.224 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -559,8 +559,8 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+			(property "Value" "USB_C"
+				(at -14.224 -0.762 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -569,8 +569,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+				(at 0.508 -24.892 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1242,7 +1242,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13098,7 +13098,7 @@
 		(pin "B12"
 			(uuid "b3f25525-e692-4bc8-b924-2f088c4688c2")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "d4ff8a4d-d746-4e23-86a9-e3d7c6520c1c")
 		)
 		(pin "A6"
