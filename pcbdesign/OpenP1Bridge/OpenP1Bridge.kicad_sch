@@ -6124,6 +6124,10 @@
 		(uuid "538ed3eb-53ae-48cd-bee6-d7ea1aaff2f9")
 	)
 	(no_connect
+		(at 27.94 107.95)
+		(uuid "677af900-0750-49a3-a8d0-5c7d2e55f496")
+	)
+	(no_connect
 		(at 27.94 100.33)
 		(uuid "75e019ac-9885-4267-bd2b-f8de04ed1b5c")
 	)
@@ -6154,10 +6158,6 @@
 	(no_connect
 		(at 27.94 102.87)
 		(uuid "92a3acb0-6579-4bcd-bb32-aa9e8f34b6e1")
-	)
-	(no_connect
-		(at 27.94 138.43)
-		(uuid "a1011914-aef9-4d3a-8714-7f762e145b39")
 	)
 	(no_connect
 		(at 54.61 57.15)
@@ -7969,6 +7969,30 @@
 			)
 		)
 	)
+	(global_label "USB_ADC"
+		(shape input)
+		(at 27.94 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b41fb710-d384-4f75-acd9-46e127a8803b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.5486 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BUZZER"
 		(shape input)
 		(at 27.94 130.81 180)
@@ -8038,30 +8062,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "USB_ADC"
-		(shape input)
-		(at 27.94 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6529a69-f076-491d-b0fe-e4d38393f5ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9333,7 +9333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13840,7 +13840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 104.14 20.32 0)
 			(hide yes)
 			(show_name no)
