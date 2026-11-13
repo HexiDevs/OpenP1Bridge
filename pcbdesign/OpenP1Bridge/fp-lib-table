@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "OpenP1Bridge") (type "KiCad") (uri "${KIPRJMOD}/libs/OpenP1Bridge.pretty") (options "") (descr ""))
+	(lib (name "Project") (type "KiCad") (uri "${KIPRJMOD}/libs/Project.pretty") (options "") (descr ""))
+)
