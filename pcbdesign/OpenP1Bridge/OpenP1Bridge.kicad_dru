@@ -1,0 +1,8 @@
+(version 1)
+
+# USB-C receptacle (J1): the GCT USB4105 pads are on a 0.8 mm pitch with
+# 0.2 mm gaps by design, so the board-wide clearance cannot apply inside it.
+(rule "J1 USB-C connector internal pad clearance"
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+)

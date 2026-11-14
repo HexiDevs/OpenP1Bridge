@@ -9158,7 +9158,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "224b079f-04a8-4179-95a7-62a29b229019")
 		(property "Reference" "H1"
 			(at 167.64 116.8399 0)
