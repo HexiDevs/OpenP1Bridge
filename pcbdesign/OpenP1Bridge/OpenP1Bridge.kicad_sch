@@ -5720,6 +5720,12 @@
 		(uuid "02a0069f-a1c1-4970-a772-c4a8f6d94df2")
 	)
 	(junction
+		(at 147.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15cb9620-aef7-457b-9a7d-066de431981f")
+	)
+	(junction
 		(at 44.45 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5730,12 +5736,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d2d4693-d3e5-4392-af4a-f2bd3734a626")
-	)
-	(junction
-		(at 106.68 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fad63d3-a06d-4855-9af3-004296b9536f")
 	)
 	(junction
 		(at 173.99 59.69)
@@ -5771,7 +5771,7 @@
 		(at 116.84 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4470a129-8de6-478c-a813-598ddcdce4e1")
+		(uuid "4942e0e8-6112-4621-b07b-ed1da20da608")
 	)
 	(junction
 		(at 148.59 33.02)
@@ -5798,6 +5798,12 @@
 		(uuid "5f1dfe10-6a96-4818-95bb-eacffec15ab8")
 	)
 	(junction
+		(at 106.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6690df09-2a66-4797-8738-76de7055b987")
+	)
+	(junction
 		(at 163.83 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5814,12 +5820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c321356-4ac2-4d56-a645-942f11a0f345")
-	)
-	(junction
-		(at 229.87 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75fc61fe-694c-47c6-a169-a318ecda79cf")
 	)
 	(junction
 		(at 184.15 71.12)
@@ -5880,6 +5880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b03a30d5-bdcc-4bbb-a919-ca319f8b7693")
+	)
+	(junction
+		(at 223.52 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6435c09-8592-42ef-a591-2df0d23a05f7")
 	)
 	(junction
 		(at 39.37 68.58)
@@ -6321,6 +6327,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 19.05) (xy 212.09 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ab8284-4376-4e6e-837e-e8b22a7fb6b1")
+	)
+	(wire
+		(pts
 			(xy 140.97 21.59) (xy 148.59 21.59)
 		)
 		(stroke
@@ -6571,7 +6587,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 19.05) (xy 223.52 22.86)
+			(xy 229.87 19.05) (xy 229.87 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6638,6 +6654,16 @@
 			(type default)
 		)
 		(uuid "51dc408f-fff2-4c78-b0c6-ecf7ed8f394a")
+	)
+	(wire
+		(pts
+			(xy 229.87 22.86) (xy 232.41 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f17c8d-610b-457e-8209-c2e248432ebd")
 	)
 	(wire
 		(pts
@@ -6711,16 +6737,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 22.86) (xy 232.41 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643bc3d0-0375-4049-b6c6-9caf01a9d7df")
-	)
-	(wire
-		(pts
 			(xy 149.86 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -6751,16 +6767,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 22.86) (xy 229.87 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "746c88c6-2c81-4a70-8c6b-b9058edd7d4a")
-	)
-	(wire
-		(pts
 			(xy 152.4 35.56) (xy 154.94 35.56)
 		)
 		(stroke
@@ -6778,16 +6784,6 @@
 			(type default)
 		)
 		(uuid "7b77975c-4368-4f75-9789-789e59477838")
-	)
-	(wire
-		(pts
-			(xy 102.87 86.36) (xy 106.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2eb2c9-debd-4ebe-96f1-d81acb739c00")
 	)
 	(wire
 		(pts
@@ -7001,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 29.21) (xy 226.06 29.21)
+			(xy 223.52 29.21) (xy 226.06 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7031,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 133.35) (xy 149.86 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40016e9-a8bf-4028-9755-8352a8ac0430")
+	)
+	(wire
+		(pts
 			(xy 152.4 33.02) (xy 152.4 35.56)
 		)
 		(stroke
@@ -7038,6 +7044,16 @@
 			(type default)
 		)
 		(uuid "b91e280b-1cfd-428e-8b74-bf4003fb87b0")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b942332e-70ac-4c05-a904-3ba9ab694575")
 	)
 	(wire
 		(pts
@@ -7191,16 +7207,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 19.05) (xy 223.52 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3c46fd-ff8e-4f57-a9fc-2cda3ac92650")
-	)
-	(wire
-		(pts
 			(xy 154.94 35.56) (xy 166.37 35.56)
 		)
 		(stroke
@@ -7291,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 109.22 86.36)
+			(xy 102.87 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7351,7 +7357,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 149.86 133.35)
+			(xy 140.97 133.35) (xy 147.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7378,6 +7384,16 @@
 			(type default)
 		)
 		(uuid "f98925e9-2a2c-4592-b5df-b032e0956861")
+	)
+	(wire
+		(pts
+			(xy 222.25 19.05) (xy 229.87 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbfb0d9-1594-4425-b866-87c606ae9ccd")
 	)
 	(wire
 		(pts
@@ -8837,84 +8853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 229.87 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "108b1512-b700-4a4a-a3a6-c0c88e60e521")
-		(property "Reference" "#PWR04"
-			(at 229.87 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 229.87 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 229.87 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24cb06c-1af7-4607-a380-8b59e178afce")
-		)
-		(instances
-			(project "OpenP1Bridge"
-				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 146.05 38.1 0)
 		(unit 1)
@@ -9388,7 +9326,7 @@
 	)
 	(symbol
 		(lib_id "libs:B140")
-		(at 219.71 24.13 270)
+		(at 223.52 24.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9398,7 +9336,7 @@
 		(dnp no)
 		(uuid "29eb4e1b-6dfa-4c17-8753-c3dbc3af4562")
 		(property "Reference" "D4"
-			(at 213.36 23.876 90)
+			(at 217.17 23.876 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9409,7 +9347,7 @@
 			)
 		)
 		(property "Value" "B140"
-			(at 212.598 25.908 90)
+			(at 216.408 25.908 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9420,7 +9358,7 @@
 			)
 		)
 		(property "Footprint" "OpenP1Bridge:SMA_L4.3-W2.6-LS5.1-RD"
-			(at 212.09 24.13 0)
+			(at 215.9 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9431,7 +9369,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C42414246.pdf"
-			(at 209.55 24.13 0)
+			(at 213.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9442,7 +9380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 24.13 0)
+			(at 223.52 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +9391,7 @@
 			)
 		)
 		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 207.01 24.13 0)
+			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9402,7 @@
 			)
 		)
 		(property "MPN" "B140"
-			(at 204.47 24.13 0)
+			(at 208.28 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9413,7 @@
 			)
 		)
 		(property "LCSC Part" "C42414246"
-			(at 201.93 24.13 0)
+			(at 205.74 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10226,108 +10164,6 @@
 			(project "OpenP1Bridge"
 				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:MBR120VLSFT1G")
-		(at 111.76 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44499de4-754d-4d65-8d00-24d1d4bbb3fe")
-		(property "Reference" "D1"
-			(at 112.141 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR120VLSFT1G"
-			(at 112.141 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C223608_SOD-123F_L2_8-W1_8-LS3_7-RD"
-			(at 111.76 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010333_onsemi-MBR120VLSFT1G_C223608.pdf"
-			(at 114.046 86.487 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MBR120VLSFT1G"
-			(at 111.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C223608"
-			(at 111.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 111.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dac6030-b82e-4488-a519-e2bf85f98ac8")
-		)
-		(pin "2"
-			(uuid "78f190f0-cd4a-4169-b1df-142c9648b1e8")
-		)
-		(instances
-			(project "OpenP1Bridge"
-				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11283,6 +11119,84 @@
 			(project "OpenP1Bridge"
 				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75424791-01a9-47df-ad90-e6378a53cfab")
+		(property "Reference" "#PWR04"
+			(at 212.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3094d0a2-cb09-4080-8df5-12d53205911c")
+		)
+		(instances
+			(project "OpenP1Bridge"
+				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13801,6 +13715,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:MBR120VLSFT1G")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d630522b-deff-4edb-8469-bbcc4b95ae2b")
+		(property "Reference" "D1"
+			(at 111.379 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR120VLSFT1G"
+			(at 111.379 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C223608_SOD-123F_L2_8-W1_8-LS3_7-RD"
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010333_onsemi-MBR120VLSFT1G_C223608.pdf"
+			(at 109.474 86.233 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MBR120VLSFT1G"
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223608"
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38faba0f-6fe0-4db2-ad20-7e41a4fa66e6")
+		)
+		(pin "2"
+			(uuid "3eebe0ef-440c-423c-8f9e-eedbce3e7ca6")
+		)
+		(instances
+			(project "OpenP1Bridge"
+				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 43.18 115.57 0)
 		(unit 1)
@@ -14654,6 +14670,87 @@
 			(project "OpenP1Bridge"
 				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 19.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecb2732f-327a-4abe-91d1-05e96ee482e2")
+		(property "Reference" "R16"
+			(at 217.424 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "56R"
+			(at 219.964 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 17.272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6ed9a13-897c-449e-b8a9-8f80fc58dd81")
+		)
+		(pin "2"
+			(uuid "46f914b8-0230-479f-ba7f-e2936e63d4fa")
+		)
+		(instances
+			(project "OpenP1Bridge"
+				(path "/5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
+					(reference "R16")
 					(unit 1)
 				)
 			)
