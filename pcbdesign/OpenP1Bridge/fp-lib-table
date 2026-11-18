@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "OpenP1Bridge") (type "KiCad") (uri "${KIPRJMOD}/libs/OpenP1Bridge.pretty") (options "") (descr ""))
 	(lib (name "Project") (type "KiCad") (uri "${KIPRJMOD}/libs/Project.pretty") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
 )

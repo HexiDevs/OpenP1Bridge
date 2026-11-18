@@ -893,7 +893,7 @@
         "uuid": "5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1,#PWR3-4,#PWR16-31,BUZZER1,C1-2,C6-9,D3-4,H1-4,J2-5,JP1-2,P1,Q2,R4-15,TV1-2,U3-4",
+    "used_designators": "#FLG1-2,#PWR1,#PWR3-4,#PWR16-31,BUZZER1,C1-2,C6-9,CN1,D1,D3-5,H1-4,J2-5,JP1-2,P1,Q2,R4-15,TV1-2,U3-4",
     "variants": []
   },
   "sheets": [
