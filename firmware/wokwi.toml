@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+# PlatformIO places the built app image here after `pio run`.
+firmware = ".pio/build/esp32-s3-devkitc-1/firmware.bin"
+elf = ".pio/build/esp32-s3-devkitc-1/firmware.elf"

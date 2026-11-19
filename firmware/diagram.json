@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "OpenP1Bridge",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-s3-devkitc-1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {
+        "flashSize": "8",
+        "serialInterface": "USB_SERIAL_JTAG"
+      }
+    }
+  ],
+  "connections": [],
+  "serialMonitor": {
+    "display": "auto"
+  }
+}
