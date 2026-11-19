@@ -1,9 +1,11 @@
 #include <Arduino.h>
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
-  Serial.println("OpenP1Bridge booted");
+  Serial.println("OpenP1Bridge booted!");
 }
 
-void loop() {
+void loop()
+{
 }
