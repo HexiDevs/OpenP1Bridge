@@ -8,10 +8,10 @@ sequenceDiagram
 
     MB->>MQTT: Subscribe: p1bridge/activated
 
-    loop Elke seconde (Regellus)
+    loop Elke seconde
         P1->>MB: Actueel vermogen (Bedraad via P1 protocol)
         SE->>MB: Modbus RTU Request
-        MB->>SE: Export-limiet (RS485)
+        MB->>SE: Nabootsting van een meter via SunSpec (RS485)
         MB->>MQTT: Publish: p1bridge/power (double)
         MB->>MQTT: Publish: p1bridge/status ("running")
     end
@@ -21,7 +21,7 @@ sequenceDiagram
     MQTT->>MB: Push: p1bridge/activated
     MB->>MQTT: Publish: p1bridge/status ("running" / "disabled")
 
-    alt Watchdog > 5 sec geen ESP-NOW data
+    alt Watchdog > 5 sec geen P1 data
         MB->>SE: Fail-safe (export -> 0W)
         MB->>MQTT: Publish: p1bridge/status ("p1Error")
     else Geen reactie van omvormer
