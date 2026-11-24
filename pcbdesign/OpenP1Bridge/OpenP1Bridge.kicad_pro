@@ -78,6 +78,14 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|142240586|103927962|df7549e8-d05b-4013-b259-ad2876b465a9|f9253b9f-8493-47ce-80fe-fd6cb2e5d47d",
+          ""
+        ],
+        [
+          "clearance|143109413|103927962|9939207f-5e44-470d-b39b-3ad968638ee0|df7549e8-d05b-4013-b259-ad2876b465a9",
+          ""
+        ],
+        [
           "drill_out_of_range|141100000|85760000|30be932f-a6cb-4e70-8d1f-642cd4ff6069|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -182,7 +190,7 @@
           ""
         ],
         [
-          "silk_over_copper|172600000|102450000|58350bb7-0620-4a0f-b8c7-dd50af26f773|48f4173e-e4be-42fb-a3f2-fc55bad5cf81",
+          "silk_over_copper|169600000|102450000|58350bb7-0620-4a0f-b8c7-dd50af26f773|48f4173e-e4be-42fb-a3f2-fc55bad5cf81",
           ""
         ],
         [
@@ -283,7 +291,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -867,14 +875,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -893,7 +893,7 @@
         "uuid": "5c0589e4-a5c9-48fd-9de1-808f42b6aaed"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1,#PWR3-4,#PWR16-31,BUZZER1,C1-2,C6-9,CN1,D1,D3-5,H1-4,J2-5,JP1-2,P1,Q2,R4-16,TV1-2,U3-4",
+    "used_designators": "#FLG1-2,#PWR1,#PWR3-4,#PWR16-31,BUZZER1,C1-2,C6-9,CN1,D1,D3-5,H1-4,J2-5,JP1-2,P1,Q2,R4-15,TV1-2,U3-4",
     "variants": []
   },
   "sheets": [
