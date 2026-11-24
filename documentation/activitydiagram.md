@@ -1,14 +1,14 @@
 ```mermaid
 flowchart TD
-    Start(( )) --> Init["Init P1 UART & RS485"]
-    Init --> WiFi["Connect met WiFi"]
+    Start(( )) --> WiFi["Connect met WiFi"]
     WiFi --> WiFiOK{"Verbonden?"}
     WiFiOK -- "Nee" --> WiFi
     WiFiOK -- "Ja" --> MQTT["Connect met MQTT Broker"]
     MQTT --> MQTTOK{"Verbonden?"}
     MQTTOK -- "Nee" --> MQTT
     MQTTOK -- "Ja" --> Sub["Subscribe: p1bridge/activated"]
-    Sub --> End((( )))
+    Sub --> Init["Init P1 UART & RS485"]
+    Init --> End((( )))
 ```
 
 ```mermaid
