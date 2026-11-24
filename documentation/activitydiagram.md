@@ -1,30 +1,36 @@
 ```mermaid
-sequenceDiagram
-    participant P1 as P1 Module
-    participant MB as ESPtje
-    participant SE as SolarEdge
-    participant MQTT as MQTT Broker
-    participant App as Telefoon
+flowchart TD
+    Start(( )) --> Init["Init P1 UART & RS485"]
+    Init --> WiFi["Connect met WiFi"]
+    WiFi --> WiFiOK{"Verbonden?"}
+    WiFiOK -- "Nee" --> WiFi
+    WiFiOK -- "Ja" --> MQTT["Connect met MQTT Broker"]
+    MQTT --> MQTTOK{"Verbonden?"}
+    MQTTOK -- "Nee" --> MQTT
+    MQTTOK -- "Ja" --> Sub["Subscribe: p1bridge/activated"]
+    Sub --> End((( )))
+```
 
-    MB->>MQTT: Subscribe: p1bridge/activated
+```mermaid
+flowchart TD
+    Start(( )) --> Poll["MQTT poll (check p1bridge/activated)"]
+    Poll --> Active{"Geactiveerd?"}
 
-    loop Elke seconde
-        P1->>MB: Actueel vermogen (Bedraad via P1 protocol)
-        SE->>MB: Modbus RTU Request
-        MB->>SE: Nabootsting van een meter via SunSpec (RS485)
-        MB->>MQTT: Publish: p1bridge/power (double)
-        MB->>MQTT: Publish: p1bridge/status ("running")
-    end
+    Active -- "Nee" --> PubDis["Publish: p1bridge/status ('disabled')"]
+    PubDis --> Poll
 
-    Note over App,MB: Bediening via telefoon
-    App->>MQTT: Publish: p1bridge/activated (true / false)
-    MQTT->>MB: Push: p1bridge/activated
-    MB->>MQTT: Publish: p1bridge/status ("running" / "disabled")
+    Active -- "Ja" --> ReadP1["Lees bedrade P1 data"]
+    ReadP1 --> Watchdog{"P1 data < 5 sec geleden?"}
 
-    alt Watchdog > 5 sec geen P1 data
-        MB->>SE: Fail-safe (export -> 0W)
-        MB->>MQTT: Publish: p1bridge/status ("p1Error")
-    else Geen reactie van omvormer
-        MB->>MQTT: Publish: p1bridge/status ("transformerError")
-    end
+    Watchdog -- "Nee" --> FailSafe["Fail-safe: export naar 0W"]
+    FailSafe --> PubP1Err["Publish: p1bridge/status ('p1Error')"]
+    PubP1Err --> Poll
+
+    Watchdog -- "Ja" --> ModReq{"Modbus RTU Request van SolarEdge?"}
+    ModReq -- "Geen reactie" --> PubTrErr["Publish: p1bridge/status ('transformerError')"]
+    PubTrErr --> Poll
+
+    ModReq -- "Ja" --> SendSun["Stuur SunSpec meterdata (RS485)"]
+    SendSun --> PubOk["Publish: p1bridge/power (double)<br/>Publish: p1bridge/status ('running')"]
+    PubOk --> Poll
 ```
