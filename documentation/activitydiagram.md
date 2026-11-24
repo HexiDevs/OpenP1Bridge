@@ -1,7 +1,7 @@
 ```mermaid
 sequenceDiagram
     participant P1 as P1 Module
-    participant MB as Omvormer Module
+    participant MB as ESPtje
     participant SE as SolarEdge
     participant MQTT as MQTT Broker
     participant App as Telefoon
