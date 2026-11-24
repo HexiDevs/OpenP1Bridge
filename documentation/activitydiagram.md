@@ -9,7 +9,7 @@ sequenceDiagram
     MB->>MQTT: Subscribe: p1bridge/activated
 
     loop Elke seconde (Regellus)
-        P1->>MB: Actueel vermogen (ESP-NOW)
+        P1->>MB: Actueel vermogen (Bedraad via P1 protocol)
         SE->>MB: Modbus RTU Request
         MB->>SE: Export-limiet (RS485)
         MB->>MQTT: Publish: p1bridge/power (double)
